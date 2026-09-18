@@ -44,7 +44,7 @@ s1.eat()
 #8.5
 '''mylist = [1,2,3]
 #print(len(mylist))
-
+'''
 class Movie():
     def __init__(self, title, director, duration):
         self.title = title
@@ -56,14 +56,14 @@ class Movie():
     def __len__(self):
         return self.duration
     def __del__(self):
-        return self.duration
+        print("Movie objesi hafızadan silindi")
 
-m = Movie('film adı', 'yönetmen adı', 120)
+m = Movie('Matrix', 'Wachowski Brothers', 136)
 
-#print(len(mylist))
-#print(len(m))
+
 print(str(m))
-'''
+print(len(m))
+del m
 
 ##################################################################################
 

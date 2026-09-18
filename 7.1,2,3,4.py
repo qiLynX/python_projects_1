@@ -23,8 +23,8 @@ sayHello("Rafael")
 #sayHello() yazıp bırakırsam çalışmaz çünkü "name" parametresini girmedik
 
 def sH(name="user"):
-    return "Hello" + name
-msg = sH(" Leao")
+    return "Hello " + name
+msg = sH("Leao")
 print(msg) #Aynı yazının tersten yazımı. Verinin fonksiyona dönmesi
 
 def total(num1, num2):
