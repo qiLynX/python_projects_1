@@ -22,7 +22,7 @@
 #************** SAYFA ORTASINDA GÜNCELLEME **************
 with open("newfile.txt","r+", encoding ="utf-8") as file:
     list = file.readlines()
-    list.insert(1,"Ali") #1.indexten itibaren "Ali'yi eklememizi sağlar."
+    list.insert(1,"Ali\n") #1.indexten itibaren "Ali'yi eklememizi sağlar."
     file.seek(0)
     for i in list:
         file.write(i)
