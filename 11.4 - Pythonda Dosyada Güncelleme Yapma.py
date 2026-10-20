@@ -7,6 +7,7 @@
 #     print(file.read())
 # '''
 #************** SAYFA SONUNDA GÜNCELLEME **************
+'''
 # with open("newfile.txt","a", encoding ="utf-8") as file:
 #     file.write("\nQWQ")
 #************** SAYFA BAŞINDA GÜNCELLEME **************
@@ -18,7 +19,9 @@
 
 # with open("newfile.txt","r", encoding ="utf-8") as file:
 #     print(file.read())
+'''
 
+'''
 #************** SAYFA ORTASINDA GÜNCELLEME **************
 with open("newfile.txt","r+", encoding ="utf-8") as file:
     list = file.readlines()
@@ -28,3 +31,4 @@ with open("newfile.txt","r+", encoding ="utf-8") as file:
         file.write(i)
 with open("newfile.txt","r", encoding ="utf-8") as file:
     print(file.read())
+'''
